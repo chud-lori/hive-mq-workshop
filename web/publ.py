@@ -13,7 +13,7 @@ mqtt_client.tls_set()
 mqtt_client.connect("f8416f89ec1142c9b72d7b1070b0a0e9.s1.eu.hivemq.cloud", 8883)
 
 mqtt_client.loop_start()
-mqtt_client.publish("esp32/bangke", value, 1)
+mqtt_client.publish("esp32/bangke", value, 2)
 mqtt_client.loop_stop()
 mqtt_client.disconnect()
 
